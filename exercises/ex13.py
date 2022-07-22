@@ -7,9 +7,9 @@ from sys import argv
 #read the WYSS section for how to run this
 
 
-val = len(argv)
 
-if(val==4):
+
+if(len(argv)==4):
     script, first, second, third = argv
 
     print("The script is called:", script)
