@@ -3,11 +3,20 @@
 #Parameters, Unpacking, Variables
 
 from sys import argv
-#read the WYSS section for how to run this
-script, first, second, third = argv
 
-print("The script is called:", script)
-print("Your first variable is:", first)
-print("Your second variable is:", second)
-print("Your third variable is:", third)
+#read the WYSS section for how to run this
+
+
+val = len(argv)
+
+if(val==4):
+    script, first, second, third = argv
+
+    print("The script is called:", script)
+    print("Your first variable is:", first)
+    print("Your second variable is:", second)
+    print("Your third variable is:", third)
+else:
+    print("Warning! please enter three values only.")
+
 
