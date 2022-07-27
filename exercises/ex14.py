@@ -3,10 +3,10 @@
 #Promoting and Passing
 
 from sys import argv
-argv[0] = "Anupama"
-friend, user_name = argv
+argv[0] = "Alexa"
+bot, user_name = argv
 prompt = '-->'
-print(f"hi {user_name}, I am the {friend} your friend.")
+print(f"hi {user_name}, I am {bot} your assistant.")
 print("i 'd like to ask some questions.")
 print(f"do you like me {user_name}?")
 like = input(prompt)
