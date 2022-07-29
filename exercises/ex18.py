@@ -13,6 +13,10 @@ def print_one(arg1):
 def print_none():
     print("i got nothing")
 
+def print_more(**arg):
+    print(arg)
+print_more(name="Aldrin",age="23")
+
 print_two("zed","Zed")
 print_two_again("zed", "Zed")
 print_one("first!")

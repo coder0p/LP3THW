@@ -5,15 +5,15 @@
 from sys import argv
 argv[0] = "Alexa"
 bot, user_name = argv
-prompt = '-->'
+#prompt = '-->'
 print(f"hi {user_name}, I am {bot} your assistant.")
 print("i 'd like to ask some questions.")
 print(f"do you like me {user_name}?")
-like = input(prompt)
+like = input("--> ")
 print(f"where do you live {user_name}?")
-lives = input(prompt)
+lives = input("--> ")
 print(f"what kind of computer you have?")
-computer = input(prompt)
+computer = input("--> ")
 print(f"""
 Alright, so you said {like} about liking me.
 you live in {lives}. 
