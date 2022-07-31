@@ -4,7 +4,7 @@ from sys import argv
 
 script, input_file = argv
 
-def print_all(f):
+def print_all(f):  
     print(f.read())
 
 def rewind(f):
@@ -28,8 +28,9 @@ print("lets print three lines:")
 current_line = 1
 print_a_line(current_line, current_file)
  
-current_line = current_line + 1
+current_line +=1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1 
-print_a_line(current_file, current_file)
+current_line +=1
+print_a_line(current_line, current_file)
+
